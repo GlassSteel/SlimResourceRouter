@@ -1,0 +1,17 @@
+{
+	"name": "glasteel/SlimResourceRouter",
+	"description": "",
+    "authors": [
+        {
+            "name": "Paul Glass-Steel",
+            "email": "paul_gs@unc.edu"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "ResourceRouter.php",
+            "ResourceControllerInterface.php"
+        ]
+    }
+}
+
