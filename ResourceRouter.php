@@ -2,7 +2,7 @@
 
 class ResourceRouter
 {
-	private $interface = 'namespace glasteel\SlimResourceRouter\ResourceControllerInterface';
+	private $interface = 'glasteel\SlimResourceRouter\ResourceControllerInterface';
 	private $slim = false;
 
 	public function register($controller_class,$url_slug,$middleware=[]){
@@ -108,8 +108,3 @@ class ResourceRouter
 	}//getSlim()
 
 }//class ResourceRouter
-
-function resource_router_catcher_helper($route){
-	$rr = new ResourceRouter;
-	return $rr->switcher($route);
-}//resource_router_catcher_helper()
